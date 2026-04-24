@@ -14,8 +14,8 @@ app.add_middleware(
     allow_methods=["*"]
 )
 
-# Create tables
-database_models.Base.metadata.create_all(bind=engine)
+# # Create tables
+# database_models.Base.metadata.create_all(bind=engine)
 
 
 # Dependency
@@ -58,6 +58,7 @@ def init_db():
 
 @app.on_event("startup")
 def startup():
+    database_models.Base.metadata.create_all(bind=engine)
     init_db()
 
 
