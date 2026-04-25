@@ -8,9 +8,13 @@ from models import Product
 
 app = FastAPI()
 
+origins = [
+    "https://inventory-hub-fast-api-z4ya.vercel.app",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # later replace with your Vercel URL
+    allow_origins=origins, 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
