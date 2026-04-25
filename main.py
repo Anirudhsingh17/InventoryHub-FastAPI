@@ -8,7 +8,7 @@ from models import Product
 
 app = FastAPI()
 
-
+print("🔥 CORS middleware loaded")
 
 app.add_middleware(
     CORSMiddleware,
