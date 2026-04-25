@@ -9,6 +9,7 @@ from models import Product
 app = FastAPI()
 
 print("🔥 CORS middleware loaded")
+app.router.redirect_slashes = False
 
 app.add_middleware(
     CORSMiddleware,
@@ -72,7 +73,7 @@ def greet():
     return {"message": "Welcome to Our Server"}
 
 
-@app.get("/products/")
+@app.get("/products")
 def get_all_products(db: Session = Depends(get_db)):
     return db.query(database_models.Product).all()
 
