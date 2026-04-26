@@ -5,6 +5,12 @@ This application allows users to perform complete CRUD operations on products wi
 
 ---
 
+## 🌐 Live Demo
+
+- 🚀 Frontend (Vercel): https://your-project.vercel.app  
+- ⚙️ Backend (Render): https://your-backend.onrender.com
+- 
+
 ## 🚀 Features
 
 * ✅ Create, Read, Update, Delete (CRUD) products
