@@ -7,8 +7,8 @@ This application allows users to perform complete CRUD operations on products wi
 
 ## 🌐 Live Demo
 
-- 🚀 Frontend (Vercel): https://your-project.vercel.app  
-- ⚙️ Backend (Render): https://your-backend.onrender.com
+- 🚀 Frontend (Vercel): [https://your-project.vercel.app ](https://inventory-hub-fast-api-z4ya.vercel.app/) 
+- ⚙️ Backend (Render): [https://your-backend.onrender.com](https://inventoryhub-fastapi-1.onrender.com)
 - 
 
 ## 🚀 Features
